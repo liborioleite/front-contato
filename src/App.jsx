@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
-import List from './components/List'
-
+import Evento from './components/Evento'
+import Formulario from './components/Formulario'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <List />
+      <h1>Testando Eventos</h1>
+      <Evento numero="1" />
+      <Evento numero="2" />
+      <Formulario />
     </div>
   )
 }
